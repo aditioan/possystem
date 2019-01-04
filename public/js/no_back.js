@@ -1,0 +1,1 @@
+$("a").click(function(t){t.preventDefault();var a=$(this).attr("href"),e=$(this).attr("target");if("_blank"==e){var n=window.open(a,"_blank");n.focus()}else window.location.replace(a)});
